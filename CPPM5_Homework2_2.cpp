@@ -8,7 +8,7 @@ struct Account
     double balance;
 };
 
-void printAccountSummary(Account& account)
+void printAccountSummary(const Account& account)
 {
     std::cout << "Ваш счёт: " << account.clientName << ", " << account.number << ", " << account.balance;
 }
